@@ -1,3 +1,3 @@
 # For the last step create a repository but make sure there are no hard coded secrets or files containing secrets. When I download your files and run the application it should error due to missing secrets file (.env). In your repository readme file, you should explain what secret(s) needed to be passed into the application. What is the point of having a "." in front of the file?
 
-For the application to the secret key variable (which is confidential) and the port variable needs to be set. The variables are stored in an .env file. 
+For the application to the secret key variable (which is confidential) and the port variable needs to be set. The variables are stored in an .env file. The point of having a "." in front of the file is to keep passwords, API keys and other sensitive data out of the code and store securely.
